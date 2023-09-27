@@ -12,8 +12,8 @@ class Config(BaseSettings):
     context: Literal['local', 'remote'] = 'local'
     browser_name: Literal['chrome', 'firefox'] = 'chrome'
     base_url: str = "https://www.modsen-software.com"
-    window_width: int = 1900
-    window_height: int = 1000
+    window_width: int = 1366
+    window_height: int = 768
     headless: bool = False
 
 
